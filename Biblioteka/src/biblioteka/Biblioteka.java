@@ -32,6 +32,9 @@ public class Biblioteka implements BibliotekaInterfejs {
 	public LinkedList<Knjiga> pronadjiKnjigu(String naslov, Autor autor, String isbn, String izdavac) {
 		//Ovo je ok komentar - 
 //		u Git Stagingu idemo na ikonicu Ammend, i pormenimo sadrzaj i time samo pregazimo ono prethodno
+		
+		//Revert komit kada zelimo da uklonimo sve sta smo radili u nekom commitu, grana - desni klik revert commit
+		
 		if(naslov == null)
 			throw new RuntimeException("Morate uneti naslov");
 		
