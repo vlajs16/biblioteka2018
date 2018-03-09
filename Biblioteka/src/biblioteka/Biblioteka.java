@@ -30,7 +30,8 @@ public class Biblioteka implements BibliotekaInterfejs {
 
 	@Override
 	public LinkedList<Knjiga> pronadjiKnjigu(String naslov, Autor autor, String isbn, String izdavac) {
-		//Ovo je ok komentar
+		//Ovo je ok komentar - 
+//		u Git Stagingu idemo na ikonicu Ammend, i pormenimo sadrzaj i time samo pregazimo ono prethodno
 		if(naslov == null)
 			throw new RuntimeException("Morate uneti naslov");
 		
